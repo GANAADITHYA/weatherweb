@@ -10,15 +10,9 @@
 </head>
 <body>
     <div>
-    <div>  
-        <label class="form-control form-adorn">
-   
-      <svg class="bi" width="16" height="16"><use href="#search" /></svg>
-  
-    <input type="search" class="form-ghost" id="adornField" placeholder="Enter your City..">
-  </label>
-
-
+    <div>
+         <input type="text" id="cityInput" placeholder="Enter city name (e.g., New York)">
+    <button onclick="getWeather()">Search</button>
    </div>
 <br>
 <div class="contianer">
@@ -27,11 +21,11 @@
         <div class="img">
 
         </div>
-        <div class="temp">
+        <div id="temp">
             23
         </div>
         <div class="weather">partly cloudy</div>
-        <div class="location"><i class="fa-solid fa-location-dot"></i> location</div>
+        <div class="location"><i class="fa-solid fa-location-dot"></i><p is="City">location</p></div>
     </div>
 </div>
 </div>
